@@ -1,5 +1,5 @@
 {
-  "name": "props-pass-props-from-comp-to-compp",
+  "name": "props-comp-to-comp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +37,9 @@
       "last 1 safari version"
     ]
   },
-"homepage": "http://gladstone28.github.io/props-pass-props-from-comp-to-compp"
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+"homepage": "http://gladstone28.github.io/props-comp-to-comp"
 
 }
